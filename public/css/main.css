@@ -96,7 +96,7 @@ a:hover {
     vertical-align: middle !important;
 }
 
-.mdc-drawer__title .mdc-list-item__graphic {
+.mdc-drawer-wrapper .mdc-list-item__graphic {
     margin-right: 0.5rem;
 }
 
