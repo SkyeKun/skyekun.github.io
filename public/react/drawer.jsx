@@ -1,5 +1,5 @@
 const Drawer = (
-    <div className="navbar-container">
+    <div className="navbar-container smooth-scroll">
     <aside className="mdc-drawer mdc-drawer--dismissible">
         <div className="mdc-drawer__header">
         <img className="mdc-drawer-image" src="https://avatars2.githubusercontent.com/u/2636867" />
@@ -40,7 +40,7 @@ const Drawer = (
     <header className="app-bar mdc-top-app-bar mdc-top-app-bar--short mdc-top-app-bar--short-collapsed" id="app-bar">
       <div className="mdc-top-app-bar__row">
         <section className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-          <a href="#" className="demo-menu material-icons mdc-top-app-bar__navigation-icon">menu</a>
+          <a className="demo-menu material-icons mdc-top-app-bar__navigation-icon">menu</a>
           <span className="mdc-top-app-bar__title">Colton Tipton</span>
         </section>
       </div>
