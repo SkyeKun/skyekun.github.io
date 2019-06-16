@@ -47,9 +47,7 @@ const Drawer = (
     </header>
 
     <main className="main-content" id="main-content">
-        <div className="body-content">
-
-        </div>
+        
     </main>
 
   </div>

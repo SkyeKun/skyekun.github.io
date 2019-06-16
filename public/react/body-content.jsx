@@ -21,4 +21,4 @@ const Content = (
     </div>
 )
 
-ReactDOM.render(Content, document.querySelector('.body-content'))
+ReactDOM.render(Content, document.querySelector('.main-content'))
