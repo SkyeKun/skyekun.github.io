@@ -17,6 +17,7 @@ const Content = (
     </div>
     <div id="blog" className="mdc-layout-grid">
     <h1 className="mdc-layout-grid__title mdc-typography--headline3 mdc-layout-grid__cell--span-1">Blog</h1>
+    <iframe className="mdc-layout-grid__cell iframe_blog" src="blog.html" name="iframe_blog"></iframe>
     </div>
     </div>
 )

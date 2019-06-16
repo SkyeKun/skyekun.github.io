@@ -21,6 +21,8 @@ a:hover {
     color: #4fc2f7;
 }
 
+/* CONTENT */
+
 #drawer {
     height: 100%;
     width: 100%;
@@ -138,4 +140,49 @@ a:hover {
     background-size: 100% auto;
     background-position: top;
     background-repeat: no-repeat;
+}
+
+/** BLOG.HTML **/
+
+.iframe_blog {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#body, .blog-content {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-content .mdc-layout-grid {
+    height: auto;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.blog-content .mdc-layout-grid__inner {
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+
+.blog-content .mdc-layout-grid__cell {
+    grid-column-end: span 1;
+}
+
+.blog-content .mdc-typography--headline5 {
+    margin-left: 1rem;
+    color: gray;
+}
+
+.blog-content .mdc-typography--caption {
+    color: gray;
+}
+
+.blog-content-body {
+    margin-top: 1rem;
 }

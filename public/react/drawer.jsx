@@ -10,25 +10,25 @@ const Drawer = (
         </div>
         </div>      
         <nav className="mdc-list">
-            <a className="mdc-list-item mdc-list-item--activated" href="#about" aria-selected="true">
+            <a className="about mdc-list-item mdc-list-item--activated" href="#about" aria-selected="true">
                 <div className="mdc-list-item-content">
                     <i className="material-icons mdc-list-item__graphic" aria-hidden="true">help</i>
                     <span className="mdc-list-item__text">About</span>
                 </div>
             </a>
-            <a className="mdc-list-item mdc-list-item" href="#portfolio" aria-selected="true">
+            <a className="portfolio mdc-list-item mdc-list-item" href="#portfolio" aria-selected="true">
                 <div className="mdc-list-item-content">
                     <i className="material-icons mdc-list-item__graphic" aria-hidden="true">folder</i>
                     <span className="mdc-list-item__text">Portfolio</span>
                 </div>
             </a>
-            <a className="mdc-list-item mdc-list-item" href="#resume" aria-selected="true">
+            <a className="resume mdc-list-item mdc-list-item" href="#resume" aria-selected="true">
                 <div className="mdc-list-item-content">
                     <i className="material-icons mdc-list-item__graphic" aria-hidden="true">import_contacts</i>
                     <span className="mdc-list-item__text">Resume</span>
                 </div>
             </a>
-            <a className="mdc-list-item mdc-list-item" href="#blog" aria-selected="true">
+            <a className="blog mdc-list-item mdc-list-item" href="#blog" aria-selected="true">
                 <div className="mdc-list-item-content">
                     <i className="material-icons mdc-list-item__graphic" aria-hidden="true">forum</i>
                     <span className="mdc-list-item__text">Blog</span>
