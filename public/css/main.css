@@ -120,5 +120,5 @@ h1 {
 
 .pdf {
     width: 100%; 
-    height: calc(100% - 3rem);
+    height: calc(100% - 6rem);
 }
