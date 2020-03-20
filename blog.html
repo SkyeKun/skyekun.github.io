@@ -14,6 +14,7 @@
         <script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
         <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
         <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.2/markdown-it.js"></script>
 
         <!-- LINKS -->
         <link rel="stylesheet" href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css">
@@ -27,20 +28,7 @@
 
       </div>
 
-      <script src="public/react/home.jsx" type="text/babel"></script>
-
-      <script type="text/javascript">
-
-        $(document).ready(function(){
-          const drawer = mdc.drawer.MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
-          const list = mdc.list.MDCList.attachTo(document.querySelector('.mdc-list'));
-          list.wrapFocus = true;
-          drawer.open = true;
-        });
-
-        
-        
-      </script>
+      <script src="public/react/blog.jsx" type="text/babel"></script>
           
     </body>
 
